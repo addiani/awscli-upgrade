@@ -1,0 +1,30 @@
+Instructions
+access to cluster on aws:
+
+Install awscli follow these steps please:
+sudo yum install awscli -y
+aws --version
+python -m pip install awscli -y
+sudo yum install python-pip -y
+sudo pip install awscli
+
+Upgrade the pip command:
+sudo pip install --upgrade pip
+
+Upgrade awscli:
+aws --version
+sudo pip install awscli --upgrade
+
+aws sts get-caller-identity
+
+Get access key and secret key:
+--> go to iam to your username and click on it to get the access & secret key, then run the follow command:
+aws configure
+aws sts get-caller-identity
+aws eks --region eu-west-1 update-kubeconfig --name acirrustech
+kubectl get nodes
+
+
+
+
+ 
